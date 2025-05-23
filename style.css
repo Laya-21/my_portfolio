@@ -27,7 +27,7 @@ body {
   }
   
   .right {
-    margin-left: 50%;
+    margin-left: 0%;
     padding: 2rem 5rem;
     height: 100vh;
     overflow-y: scroll;
