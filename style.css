@@ -16,14 +16,14 @@ body {
   padding: 40px;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
 
 /* Move your name upward */
 .left h1 {
   font-size: 40px;
-  margin-top: 50px;
+  margin-top: 20px;  /* earlier was 50px */
   margin-bottom: 0;
   color: #24b335;
 }
@@ -31,8 +31,7 @@ body {
 /* Right section for content */
 .right {
   width: 70%;
-  padding: 40px 20px;
-  margin-left: -5000px; /* This shifts it leftwards */
+  padding: 40px 60px;  /* increased left padding for rightward shift */
   overflow-y: auto;
 }
 
