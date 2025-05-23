@@ -18,12 +18,13 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  border-right: 5px solid #334155;
 }
 
 /* Move your name downward */
 .left h1 {
   font-size: 40px;
-  margin-top: 120px;  /* was 40px, now moved down */
+  margin-top: 200px;  /* was 40px, now moved down */
   margin-bottom: 0;
   color: #24b335;
 }
@@ -31,7 +32,7 @@ body {
 /* Right section for content */
 .right {
   width: 70%;
-  padding: 60px 180px;  /* was 60px 60px, now pushed more to right */
+  padding: 60px 250px;  /* was 60px 60px, now pushed more to right */
   overflow-y: auto;
 }
 
