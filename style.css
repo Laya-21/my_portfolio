@@ -18,13 +18,13 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  border-right: 5px solid #334155;
+  border-right: 3px solid #334155; /* clean vertical line */
 }
 
 /* Move your name downward */
 .left h1 {
-  font-size: 40px;
-  margin-top: 200px;  /* was 40px, now moved down */
+  font-size: 50px;
+  margin-top: 160px;  /* Adjusted for a balanced position */
   margin-bottom: 0;
   color: #a83e05;
 }
@@ -32,7 +32,7 @@ body {
 /* Right section for content */
 .right {
   width: 70%;
-  padding: 60px 250px;  /* was 60px 60px, now pushed more to right */
+  padding: 80px 100px 80px 120px; /* top, right, bottom, left */
   overflow-y: auto;
 }
 
@@ -40,12 +40,14 @@ body {
 section h2 {
   color: #34d399;
   margin-bottom: 10px;
+  font-size: 28px;
 }
 
 /* Paragraph styling */
 section p {
-  line-height: 1.6;
+  line-height: 1.8;
   margin-bottom: 30px;
+  font-size: 16px;
 }
 
 /* Optional: Spotlight effect div */
