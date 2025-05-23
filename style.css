@@ -23,7 +23,7 @@ body {
 /* Move your name upward */
 .left h1 {
   font-size: 40px;
-  margin-top: 20px;  /* earlier was 50px */
+  margin-top: 40px;  /* earlier was 50px */
   margin-bottom: 0;
   color: #24b335;
 }
@@ -31,7 +31,7 @@ body {
 /* Right section for content */
 .right {
   width: 70%;
-  padding: 60px 40px;  /* increased left padding for rightward shift */
+  padding: 40px 60px;  /* increased left padding for rightward shift */
   overflow-y: auto;
 }
 
