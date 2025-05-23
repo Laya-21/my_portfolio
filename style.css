@@ -23,16 +23,16 @@ body {
 /* Move your name upward */
 .left h1 {
   font-size: 40px;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-bottom: 0;
-  color: #c7d2fe;
+  color: #24b335;
 }
 
 /* Right section for content */
 .right {
   width: 70%;
   padding: 40px 20px;
-  margin-left: -200px; /* This shifts it leftwards */
+  margin-left: -10px; /* This shifts it leftwards */
   overflow-y: auto;
 }
 
