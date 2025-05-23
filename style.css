@@ -32,7 +32,7 @@ body {
 .right {
   width: 70%;
   padding: 40px 20px;
-  margin-left: -10px; /* This shifts it leftwards */
+  margin-left: -5000px; /* This shifts it leftwards */
   overflow-y: auto;
 }
 
