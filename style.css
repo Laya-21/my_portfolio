@@ -31,7 +31,7 @@ body {
 /* Right section for content */
 .right {
   width: 70%;
-  padding: 40px 60px;  /* increased left padding for rightward shift */
+  padding: 60px 40px;  /* increased left padding for rightward shift */
   overflow-y: auto;
 }
 
