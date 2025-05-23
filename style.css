@@ -20,10 +20,10 @@ body {
   flex-direction: column;
 }
 
-/* Move your name upward */
+/* Move your name downward */
 .left h1 {
   font-size: 40px;
-  margin-top: 40px;  /* earlier was 50px */
+  margin-top: 80px;  /* was 40px, now moved down */
   margin-bottom: 0;
   color: #24b335;
 }
@@ -31,7 +31,7 @@ body {
 /* Right section for content */
 .right {
   width: 70%;
-  padding: 60px 60px;  /* increased left padding for rightward shift */
+  padding: 60px 120px;  /* was 60px 60px, now pushed more to right */
   overflow-y: auto;
 }
 
