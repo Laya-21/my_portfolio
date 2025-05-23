@@ -23,7 +23,7 @@ body {
 /* Move your name downward */
 .left h1 {
   font-size: 40px;
-  margin-top: 80px;  /* was 40px, now moved down */
+  margin-top: 120px;  /* was 40px, now moved down */
   margin-bottom: 0;
   color: #24b335;
 }
@@ -31,7 +31,7 @@ body {
 /* Right section for content */
 .right {
   width: 70%;
-  padding: 60px 120px;  /* was 60px 60px, now pushed more to right */
+  padding: 60px 180px;  /* was 60px 60px, now pushed more to right */
   overflow-y: auto;
 }
 
