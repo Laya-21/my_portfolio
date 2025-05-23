@@ -1,59 +1,61 @@
+/* Base Styling */
 body {
-    margin: 0;
-    font-family: 'Helvetica', sans-serif;
-    background: #0a192f;
-    color: #ccd6f6;
-    display: flex;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .left {
-    width: 30%;
-    padding: 2rem;
-    background: #0a192f;
-    position: fixed;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-  }
-  
-  .left h1 {
-    font-size: 3rem;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .right {
-    margin-left: 0%;
-    padding: 2rem 5rem;
-    height: 100vh;
-    overflow-y: scroll;
-  }
-  
-  .right section {
-    margin-bottom: 5rem;
-    max-width: 700px;
-  }
-  
-  .right h2 {
-    color: #64ffda;
-    border-bottom: 1px solid #233554;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  #spotlight {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 400px;
-    height: 400px;
-    pointer-events: none;
-    background: radial-gradient(circle at center, rgba(255,255,255,0.07) 0%, transparent 70%);
-    transform: translate(-50%, -50%);
-    z-index: 1;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0a1a2f;
+  color: #c7d2fe;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Left section with your name */
+.left {
+  width: 30%;
+  padding: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Move your name upward */
+.left h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: #c7d2fe;
+}
+
+/* Right section for content */
+.right {
+  width: 70%;
+  padding: 40px 20px;
+  margin-left: -50px; /* This shifts it leftwards */
+  overflow-y: auto;
+}
+
+/* Section headings */
+section h2 {
+  color: #34d399;
+  margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+section p {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Optional: Spotlight effect div */
+#spotlight {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+  pointer-events: none;
+  mix-blend-mode: overlay;
+  z-index: 100;
+  border-radius: 50%;
+}
